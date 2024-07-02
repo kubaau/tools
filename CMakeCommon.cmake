@@ -21,7 +21,7 @@ function(verifyCCompiler gnu clang)
     verifyCompiler(${CMAKE_C_COMPILER_ID} ${CMAKE_C_COMPILER_VERSION} ${gnu} ${clang})
 endfunction(verifyCCompiler)
 ###
-include_directories(../..)
+include_directories(..)
 
 aux_source_directory(../src SRC_LIST)
 add_executable(${PROJECT_NAME} ${SRC_LIST})
