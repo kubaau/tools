@@ -1,0 +1,688 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\A-D">
+      <UniqueIdentifier>{2e8e6b84-0aff-48e7-81eb-9dbc1f18be24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\E-L">
+      <UniqueIdentifier>{406f8610-3105-4815-b7ef-48a4de81dfeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\M-R">
+      <UniqueIdentifier>{565215ad-c789-4182-9e85-fd0417b429f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\W-Z">
+      <UniqueIdentifier>{dad12de0-57aa-4989-a6c9-2afcc6ab469d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\S-V">
+      <UniqueIdentifier>{d6c4a672-528e-4923-80dd-3b5dcc7672aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{97336572-0433-4730-b6b5-4843042569b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\A-D">
+      <UniqueIdentifier>{5d9aceda-6186-4be0-a3ae-9d986d27aff4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\E-L">
+      <UniqueIdentifier>{edb03f3f-b034-4583-89cf-fca88990daa4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\M-R">
+      <UniqueIdentifier>{2d396e2c-b628-4b47-9576-01501d578f6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\S-V">
+      <UniqueIdentifier>{da9937cf-7ac1-46ed-9c35-ce3e01d6ac2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\W-Z">
+      <UniqueIdentifier>{b89c98c7-b994-42bb-a56b-e5c368f1a360}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\tools\Allocs.hpp">
+      <Filter>Header Files\A-D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools\Args.hpp">
+      <Filter>Header Files\A-D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools\ArraySize.hpp">
+      <Filter>Header Files\A-D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools\AStar.hpp">
+      <Filter>Header Files\A-D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools\AsyncTask.hpp">
+      <Filter>Header Files\A-D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools\BitCount.hpp">
+      <Filter>Header Files\A-D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools\BoostRangeToContainer.hpp">
+      <Filter>Header Files\A-D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools\BufferPool.hpp">
+      <Filter>Header Files\A-D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools\CaesarCipher.hpp">
+      <Filter>Header Files\A-D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools\CheckResult.hpp">
+      <Filter>Header Files\A-D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools\ChronoWrappers.hpp">
+      <Filter>Header Files\A-D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools\ClockGetTimeWindows.hpp">
+      <Filter>Header Files\A-D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools\CLRS.hpp">
+      <Filter>Header Files\A-D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools\Combine.hpp">
+      <Filter>Header Files\A-D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools\ComparisonOperators.hpp">
+      <Filter>Header Files\A-D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools\Compression.hpp">
+      <Filter>Header Files\A-D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools\ComPtr.hpp">
+      <Filter>Header Files\A-D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools\ConstexprString.hpp">
+      <Filter>Header Files\A-D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools\ContainerFilter.hpp">
+      <Filter>Header Files\A-D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools\ContainerInsert.hpp">
+      <Filter>Header Files\A-D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools\ContainerMemSize.hpp">
+      <Filter>Header Files\A-D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools\ContainerOperators.hpp">
+      <Filter>Header Files\A-D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools\Contains.hpp">
+      <Filter>Header Files\A-D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools\CountTime.hpp">
+      <Filter>Header Files\A-D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools\CreateArray.hpp">
+      <Filter>Header Files\A-D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools\CurrentTime.hpp">
+      <Filter>Header Files\A-D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools\CustomRangeAlgorithms.hpp">
+      <Filter>Header Files\A-D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools\CutString.hpp">
+      <Filter>Header Files\A-D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools\DefaultRandomEngine.hpp">
+      <Filter>Header Files\A-D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools\Demangle.hpp">
+      <Filter>Header Files\A-D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools\DumpMemory.hpp">
+      <Filter>Header Files\A-D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools\Either.hpp">
+      <Filter>Header Files\E-L</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools\Endianness.hpp">
+      <Filter>Header Files\E-L</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools\Endl.hpp">
+      <Filter>Header Files\E-L</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools\EnumHash.hpp">
+      <Filter>Header Files\E-L</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools\EnumToString.hpp">
+      <Filter>Header Files\E-L</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools\EnumToUnderlying.hpp">
+      <Filter>Header Files\E-L</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools\EqualityFunctors.hpp">
+      <Filter>Header Files\E-L</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools\ErrorChecks.hpp">
+      <Filter>Header Files\E-L</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools\ExtendedRangeStlAlgorithms.hpp">
+      <Filter>Header Files\E-L</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools\FileName.hpp">
+      <Filter>Header Files\E-L</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools\FindActErase.hpp">
+      <Filter>Header Files\E-L</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools\ForwardDeclarations.hpp">
+      <Filter>Header Files\E-L</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools\FunctionComplement.hpp">
+      <Filter>Header Files\E-L</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools\FunctionComposition.hpp">
+      <Filter>Header Files\E-L</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools\FunctionTraits.hpp">
+      <Filter>Header Files\E-L</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools\GtestWrapper.hpp">
+      <Filter>Header Files\E-L</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools\HashMembers.hpp">
+      <Filter>Header Files\E-L</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools\HasMember.hpp">
+      <Filter>Header Files\E-L</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools\InRange.hpp">
+      <Filter>Header Files\E-L</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools\IntToWord.hpp">
+      <Filter>Header Files\E-L</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools\IoTypedefs.hpp">
+      <Filter>Header Files\E-L</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools\IsStlContainer.hpp">
+      <Filter>Header Files\E-L</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools\Iterators.hpp">
+      <Filter>Header Files\E-L</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools\KeysValues.hpp">
+      <Filter>Header Files\E-L</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools\Lock.hpp">
+      <Filter>Header Files\E-L</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools\Logger.hpp">
+      <Filter>Header Files\E-L</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools\Loud.hpp">
+      <Filter>Header Files\E-L</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools\MapValueOr.hpp">
+      <Filter>Header Files\M-R</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools\MemberOffset.hpp">
+      <Filter>Header Files\M-R</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools\Natural.hpp">
+      <Filter>Header Files\M-R</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools\Numeric.hpp">
+      <Filter>Header Files\M-R</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools\Observer.hpp">
+      <Filter>Header Files\M-R</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools\Optional.hpp">
+      <Filter>Header Files\M-R</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools\OutputOperators.hpp">
+      <Filter>Header Files\M-R</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools\Pause.hpp">
+      <Filter>Header Files\M-R</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools\Print.hpp">
+      <Filter>Header Files\M-R</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools\PrintBacktrace.hpp">
+      <Filter>Header Files\M-R</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools\PrintGuru.hpp">
+      <Filter>Header Files\M-R</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools\PrintPikachu.hpp">
+      <Filter>Header Files\M-R</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools\PtrMagic.hpp">
+      <Filter>Header Files\M-R</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools\QueuePop.hpp">
+      <Filter>Header Files\M-R</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools\Random.hpp">
+      <Filter>Header Files\M-R</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools\RandomChance.hpp">
+      <Filter>Header Files\M-R</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools\RandomContainers.hpp">
+      <Filter>Header Files\M-R</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools\RangeStlAlgorithms.hpp">
+      <Filter>Header Files\M-R</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools\ReadFile.hpp">
+      <Filter>Header Files\M-R</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools\Recursion.hpp">
+      <Filter>Header Files\M-R</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools\Repeat.hpp">
+      <Filter>Header Files\M-R</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools\ScopedThread.hpp">
+      <Filter>Header Files\S-V</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools\Sigaction.hpp">
+      <Filter>Header Files\S-V</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools\SimpleTimer.hpp">
+      <Filter>Header Files\S-V</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools\SplitString.hpp">
+      <Filter>Header Files\S-V</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools\StackPop.hpp">
+      <Filter>Header Files\S-V</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools\StartsWith.hpp">
+      <Filter>Header Files\S-V</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools\Std.hpp">
+      <Filter>Header Files\S-V</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools\Stringify.hpp">
+      <Filter>Header Files\S-V</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools\StringStream.hpp">
+      <Filter>Header Files\S-V</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools\StringToInt.hpp">
+      <Filter>Header Files\S-V</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools\Strong.hpp">
+      <Filter>Header Files\S-V</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools\TaskScheduler.hpp">
+      <Filter>Header Files\S-V</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools\TeeCout.hpp">
+      <Filter>Header Files\S-V</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools\ThreadSafeLogger.hpp">
+      <Filter>Header Files\S-V</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools\ThreadSafeQueue.hpp">
+      <Filter>Header Files\S-V</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools\Time.hpp">
+      <Filter>Header Files\S-V</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools\TimeCasts.hpp">
+      <Filter>Header Files\S-V</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools\TimedFunction.hpp">
+      <Filter>Header Files\S-V</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools\Timer.hpp">
+      <Filter>Header Files\S-V</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools\TimerWindows.hpp">
+      <Filter>Header Files\S-V</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools\ToLower.hpp">
+      <Filter>Header Files\S-V</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools\Typedefs.hpp">
+      <Filter>Header Files\S-V</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools\TypeTraits.hpp">
+      <Filter>Header Files\S-V</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools\VSCompatibility.hpp">
+      <Filter>Header Files\S-V</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools\WeakPtrMatcher.hpp">
+      <Filter>Header Files\W-Z</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools\WinConsole.hpp">
+      <Filter>Header Files\W-Z</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools\WinDebug.hpp">
+      <Filter>Header Files\W-Z</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools\WindowsNoMinMax.hpp">
+      <Filter>Header Files\W-Z</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools\As.hpp">
+      <Filter>Header Files\A-D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools\ReadStringFromBuffer.hpp">
+      <Filter>Header Files\M-R</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools\WriteFile.hpp">
+      <Filter>Header Files\W-Z</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools\FileCommon.hpp">
+      <Filter>Header Files\E-L</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools\FileFolder.hpp">
+      <Filter>Header Files\E-L</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools\Singleton.hpp">
+      <Filter>Header Files\S-V</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools\ExecutableFolder.hpp">
+      <Filter>Header Files\E-L</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools\WString.hpp">
+      <Filter>Header Files\W-Z</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tools\Toggle.hpp">
+      <Filter>Header Files\S-V</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SimpleTimer.cpp">
+      <Filter>Source Files\S-V</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SplitString.cpp">
+      <Filter>Source Files\S-V</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\StackPop.cpp">
+      <Filter>Source Files\S-V</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Stringify.cpp">
+      <Filter>Source Files\S-V</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\StringToInt.cpp">
+      <Filter>Source Files\S-V</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Strong.cpp">
+      <Filter>Source Files\S-V</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SyscallWrappers.cpp">
+      <Filter>Source Files\S-V</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ThreadSafeLogger.cpp">
+      <Filter>Source Files\S-V</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Time.cpp">
+      <Filter>Source Files\S-V</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\TimeCasts.cpp">
+      <Filter>Source Files\S-V</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\TimedFunction.cpp">
+      <Filter>Source Files\S-V</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Timer.cpp">
+      <Filter>Source Files\S-V</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\TimerWindows.cpp">
+      <Filter>Source Files\S-V</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\VSCompatibility.cpp">
+      <Filter>Source Files\S-V</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MapValueOr.cpp">
+      <Filter>Source Files\M-R</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MemberOffset.cpp">
+      <Filter>Source Files\M-R</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Natural.cpp">
+      <Filter>Source Files\M-R</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Numeric.cpp">
+      <Filter>Source Files\M-R</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\OutputOperators.cpp">
+      <Filter>Source Files\M-R</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Print.cpp">
+      <Filter>Source Files\M-R</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\PrintBacktrace.cpp">
+      <Filter>Source Files\M-R</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\PtrMagic.cpp">
+      <Filter>Source Files\M-R</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Random.cpp">
+      <Filter>Source Files\M-R</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\RandomContainers.cpp">
+      <Filter>Source Files\M-R</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\RangeStlAlgorithms.cpp">
+      <Filter>Source Files\M-R</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Either.cpp">
+      <Filter>Source Files\E-L</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Endianness.cpp">
+      <Filter>Source Files\E-L</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Endl.cpp">
+      <Filter>Source Files\E-L</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\EnumHash.cpp">
+      <Filter>Source Files\E-L</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\EnumToString.cpp">
+      <Filter>Source Files\E-L</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\EnumToUnderlying.cpp">
+      <Filter>Source Files\E-L</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\EqualityFunctors.cpp">
+      <Filter>Source Files\E-L</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ErrorChecks.cpp">
+      <Filter>Source Files\E-L</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ExtendedRangeStlAlgorithms.cpp">
+      <Filter>Source Files\E-L</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FindActErase.cpp">
+      <Filter>Source Files\E-L</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FunctionComplement.cpp">
+      <Filter>Source Files\E-L</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FunctionComposition.cpp">
+      <Filter>Source Files\E-L</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\InRange.cpp">
+      <Filter>Source Files\E-L</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\IntToWord.cpp">
+      <Filter>Source Files\E-L</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\IsStlContainer.cpp">
+      <Filter>Source Files\E-L</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Iterators.cpp">
+      <Filter>Source Files\E-L</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\KeysValues.cpp">
+      <Filter>Source Files\E-L</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Lock.cpp">
+      <Filter>Source Files\E-L</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Logger.cpp">
+      <Filter>Source Files\E-L</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Loud.cpp">
+      <Filter>Source Files\E-L</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CaesarCipher.cpp">
+      <Filter>Source Files\A-D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CheckResult.cpp">
+      <Filter>Source Files\A-D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ChronoWrappers.cpp">
+      <Filter>Source Files\A-D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CLRS.cpp">
+      <Filter>Source Files\A-D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ComparisonOperators.cpp">
+      <Filter>Source Files\A-D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Compression.cpp">
+      <Filter>Source Files\A-D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ContainerFilter.cpp">
+      <Filter>Source Files\A-D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ContainerInsert.cpp">
+      <Filter>Source Files\A-D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ContainerOperators.cpp">
+      <Filter>Source Files\A-D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Contains.cpp">
+      <Filter>Source Files\A-D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CountTime.cpp">
+      <Filter>Source Files\A-D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CreateArray.cpp">
+      <Filter>Source Files\A-D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CurrentTime.cpp">
+      <Filter>Source Files\A-D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CustomRangeAlgorithms.cpp">
+      <Filter>Source Files\A-D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CutString.cpp">
+      <Filter>Source Files\A-D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Demangle.cpp">
+      <Filter>Source Files\A-D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DumpMemory.cpp">
+      <Filter>Source Files\A-D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\BitCount.cpp">
+      <Filter>Source Files\A-D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\BufferPool.cpp">
+      <Filter>Source Files\A-D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Args.cpp">
+      <Filter>Source Files\A-D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ArraySize.cpp">
+      <Filter>Source Files\A-D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\AStar.cpp">
+      <Filter>Source Files\A-D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\AsyncTask.cpp">
+      <Filter>Source Files\A-D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Allocs.cpp">
+      <Filter>Source Files\A-D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Optional.cpp">
+      <Filter>Source Files\M-R</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\RandomChance.cpp">
+      <Filter>Source Files\M-R</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Repeat.cpp">
+      <Filter>Source Files\M-R</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ReadFile.cpp">
+      <Filter>Source Files\M-R</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Observer.cpp">
+      <Filter>Source Files\M-R</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\WeakPtrMatcher.cpp">
+      <Filter>Source Files\W-Z</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ScopedThread.cpp">
+      <Filter>Source Files\S-V</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\StartsWith.cpp">
+      <Filter>Source Files\S-V</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Std.cpp">
+      <Filter>Source Files\S-V</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ToLower.cpp">
+      <Filter>Source Files\S-V</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\TaskScheduler.cpp">
+      <Filter>Source Files\S-V</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ThreadSafeQueue.cpp">
+      <Filter>Source Files\S-V</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\QueuePop.cpp">
+      <Filter>Source Files\M-R</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\StringStream.cpp">
+      <Filter>Source Files\S-V</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ComPtr.cpp">
+      <Filter>Source Files\A-D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ContainerMemSize.cpp">
+      <Filter>Source Files\A-D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SigAction.cpp">
+      <Filter>Source Files\S-V</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FileName.cpp">
+      <Filter>Source Files\E-L</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ConstexprString.cpp">
+      <Filter>Source Files\A-D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Combine.cpp">
+      <Filter>Source Files\A-D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Recursion.cpp">
+      <Filter>Source Files\M-R</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\WriteFile.cpp">
+      <Filter>Source Files\W-Z</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FileCommon.cpp">
+      <Filter>Source Files\E-L</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Singleton.cpp">
+      <Filter>Source Files\S-V</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ExecutableFolder.cpp">
+      <Filter>Source Files\E-L</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\WString.cpp">
+      <Filter>Source Files\W-Z</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ExecutableFolderUnicode.cpp">
+      <Filter>Source Files\E-L</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Toggle.cpp">
+      <Filter>Source Files\S-V</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
