@@ -1,5 +1,7 @@
 #include "MemberOffset.hpp"
+
 #include "GtestWrapper.hpp"
+#include "VSCompatibility.hpp"
 
 TEST(MemberOffset, offsetOfMember)
 {
