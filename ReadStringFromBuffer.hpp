@@ -1,7 +1,7 @@
 #pragma once
 
 #include <sstream>
-#include <tools/Typedefs.hpp>
+#include "Typedefs.hpp"
 
 inline auto readString(const Buffer& data, int begin_offset, int end_offset)
 {
