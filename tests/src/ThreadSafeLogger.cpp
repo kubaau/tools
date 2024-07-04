@@ -72,6 +72,8 @@ TEST(ThreadSafeLogger, thread_name)
     INFO_LOG << "fest";
     threadName("test");
     INFO_LOG << "best";
+    threadName();
+    INFO_LOG << "west";
 }
 
 TEST(ThreadSafeLogger, if_else)
