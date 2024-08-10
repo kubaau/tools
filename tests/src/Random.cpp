@@ -1,4 +1,5 @@
 #include "Random.hpp"
+
 #include "GtestWrapper.hpp"
 #include "Print.hpp"
 #include "Typedefs.hpp"
@@ -46,6 +47,14 @@ TEST(Random, randomInt_unsigned_default)
     EXPECT_TRUE(r >= 3 and r <= 7);
 
     EXPECT_EQ(5u, randomInt(5u, 5u));
+}
+
+TEST(Random, randomInt_whole_range)
+{
+    const auto r = randomInt<uint8_t, uint16_t>();
+    print(static_cast<unsigned>(r));
+    using nl = numeric_limits<uint8_t>;
+    EXPECT_TRUE(r >= nl::min() and r <= nl::max());
 }
 
 TEST(Random, randomFloat_double)
