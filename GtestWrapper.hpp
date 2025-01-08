@@ -19,7 +19,9 @@ using Vd = vector<double>;
 using Vs = vector<string>;
 using V8 = vector<u8>;
 using S = set<int>;
+using US = unordered_set<int>;
 using M = map<int, int>;
+using UM = unordered_map<int, int>;
 
 template <unsigned n, typename T = int>
 using A = array<T, n>;

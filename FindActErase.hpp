@@ -17,7 +17,7 @@ namespace Detail
         }
     }
 
-    template <class C, typename T, class UnaryOp, typename = enable_if_t<HasMember_mapped_type<C>::value>>
+    template <class C, typename T, class UnaryOp, typename = EnableIfHasMappedType<C, bool>>
     void findActEraseImpl(C& c, const T& i, UnaryOp f, int)
     {
         const auto it = c.find(i);

@@ -2,6 +2,7 @@
 
 #include <iterator>
 #include <type_traits>
+
 #include "HasMember.hpp"
 
 template <bool Condition, typename T = void>
@@ -58,3 +59,6 @@ using IsSameDecayed = std::is_same<std::decay_t<T1>, std::decay_t<T2>>;
 
 template <typename C, typename Ret>
 using EnableIfHasFindMethod = std::enable_if_t<HasMember_find<C>::value, Ret>;
+
+template <typename C, typename Ret>
+using EnableIfHasMappedType = std::enable_if_t<HasMember_mapped_type<C>::value, Ret>;

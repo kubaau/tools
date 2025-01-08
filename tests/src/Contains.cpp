@@ -1,4 +1,5 @@
 #include "Contains.hpp"
+
 #include "GtestWrapper.hpp"
 
 TEST(Contains, contains)
