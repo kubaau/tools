@@ -1,6 +1,6 @@
 #pragma once
 
-#include <iostream>
+#include <ostream>
 
 #define DEFINE_STRONG_TYPE(Name, UnderlyingType) using Name = Strong<UnderlyingType, struct StrongTag##Name>;
 
@@ -10,29 +10,28 @@ class Strong
 public:
     using Underlying = UnderlyingType;
 
-    constexpr Strong(UnderlyingType v = {}) : value(v) {}
+    constexpr Strong(UnderlyingType v = {}) : value{v} {}
 
-    auto operator=(UnderlyingType v)
+    constexpr auto& operator=(UnderlyingType v)
     {
         value = v;
         return *this;
     }
 
-    auto operator*() const { return value; }
-    auto operator-> () const { return &value; }
-    bool operator==(const Strong& other) const { return value == other.value; }
-    bool operator!=(const Strong& other) const { return value != other.value; }
-    bool operator<(const Strong& other) const { return value < other.value; }
-    bool operator>(const Strong& other) const { return value > other.value; }
-    auto operator<<(unsigned shift) const { return value << shift; }
-    auto operator>>(unsigned shift) const { return value >> shift; }
+    constexpr auto& operator*() const { return value; }
+    constexpr auto operator->() const { return &value; }
 
-    auto operator+=(unsigned operand) { return value += operand; }
-    auto operator-=(unsigned operand) { return value -= operand; }
-    auto operator++() { return ++value; }
-    auto operator--() { return --value; }
-    auto operator++(int) { return value++; }
-    auto operator--(int) { return value--; }
+    constexpr auto operator<=>(const Strong&) const = default;
+
+    constexpr auto operator<<(unsigned shift) const { return value << shift; }
+    constexpr auto operator>>(unsigned shift) const { return value >> shift; }
+
+    constexpr auto operator+=(unsigned operand) { return value += operand; }
+    constexpr auto operator-=(unsigned operand) { return value -= operand; }
+    constexpr auto operator++() { return ++value; }
+    constexpr auto operator--() { return --value; }
+    constexpr auto operator++(int) { return value++; }
+    constexpr auto operator--(int) { return value--; }
 
 private:
     UnderlyingType value;

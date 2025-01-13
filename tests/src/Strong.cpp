@@ -39,3 +39,11 @@ TEST(Strong, StrongType)
     StrongS ss;
     EXPECT_EQ(5, ss->a);
 }
+
+TEST(Strong, StrongType_operators)
+{
+    DEFINE_STRONG_TYPE(StrongString, std::string);
+    StrongString ss;
+    EXPECT_TRUE(ss->empty());
+    EXPECT_TRUE((*ss).empty());
+}
