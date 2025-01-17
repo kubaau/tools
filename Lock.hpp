@@ -1,6 +1,7 @@
 #pragma once
 
 #include <mutex>
+
 #include "Combine.hpp"
 
 #define LOCK_MTX(mtx) std::lock_guard<std::mutex> LINE_COMBINE(lock){mtx};

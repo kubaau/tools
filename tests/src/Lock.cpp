@@ -1,4 +1,5 @@
 #include "Lock.hpp"
+
 #include "GtestWrapper.hpp"
 
 TEST(Lock, lock)

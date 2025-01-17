@@ -391,6 +391,9 @@
     <ClInclude Include="..\..\ContainsKeys.hpp">
       <Filter>Header Files\A-D</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Guarded.hpp">
+      <Filter>Header Files\E-L</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\src\main.cpp">
@@ -689,6 +692,9 @@
     </ClCompile>
     <ClCompile Include="..\src\ContainsKeys.cpp">
       <Filter>Source Files\A-D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Guarded.cpp">
+      <Filter>Source Files\E-L</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
