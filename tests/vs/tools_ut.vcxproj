@@ -244,6 +244,7 @@
     <ClInclude Include="..\..\ReadFile.hpp" />
     <ClInclude Include="..\..\ReadStringFromBuffer.hpp" />
     <ClInclude Include="..\..\Recursion.hpp" />
+    <ClInclude Include="..\..\RemoveChars.hpp" />
     <ClInclude Include="..\..\Repeat.hpp" />
     <ClInclude Include="..\..\ScopedThread.hpp" />
     <ClInclude Include="..\..\Sigaction.hpp" />
@@ -351,6 +352,7 @@
     <ClCompile Include="..\src\RangeStlAlgorithms.cpp" />
     <ClCompile Include="..\src\ReadFile.cpp" />
     <ClCompile Include="..\src\Recursion.cpp" />
+    <ClCompile Include="..\src\RemoveChars.cpp" />
     <ClCompile Include="..\src\Repeat.cpp" />
     <ClCompile Include="..\src\ScopedThread.cpp" />
     <ClCompile Include="..\src\SigAction.cpp" />

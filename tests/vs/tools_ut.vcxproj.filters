@@ -394,6 +394,9 @@
     <ClInclude Include="..\..\Guarded.hpp">
       <Filter>Header Files\E-L</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\RemoveChars.hpp">
+      <Filter>Header Files\M-R</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\src\main.cpp">
@@ -695,6 +698,9 @@
     </ClCompile>
     <ClCompile Include="..\src\Guarded.cpp">
       <Filter>Source Files\E-L</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\RemoveChars.cpp">
+      <Filter>Source Files\M-R</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
