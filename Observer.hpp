@@ -1,6 +1,7 @@
 #pragma once
 
 #include <memory>
+
 #include "CustomRangeAlgorithms.hpp"
 
 template <typename... Args>
@@ -29,7 +30,7 @@ class Observable : public IObservable<Observables...>
 public:
     using WeakObserver = std::weak_ptr<IObserver<Observables...>>;
 
-    virtual void subscribe(WeakObserver obs) override { observers.push_back(obs); }
+    void subscribe(WeakObserver obs) override { observers.push_back(obs); }
 
 protected:
     virtual void notifyObservers(Observables... args)

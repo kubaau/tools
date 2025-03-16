@@ -202,6 +202,7 @@
     <ClInclude Include="..\..\ErrorChecks.hpp" />
     <ClInclude Include="..\..\ExecutableFolder.hpp" />
     <ClInclude Include="..\..\ExtendedRangeStlAlgorithms.hpp" />
+    <ClInclude Include="..\..\FileChange.hpp" />
     <ClInclude Include="..\..\FileFolder.hpp" />
     <ClInclude Include="..\..\FileName.hpp" />
     <ClInclude Include="..\..\FindActErase.hpp" />
@@ -265,6 +266,7 @@
     <ClInclude Include="..\..\Time.hpp" />
     <ClInclude Include="..\..\TimeCasts.hpp" />
     <ClInclude Include="..\..\TimedFunction.hpp" />
+    <ClInclude Include="..\..\TimeLimitedThread.hpp" />
     <ClInclude Include="..\..\Timer.hpp" />
     <ClInclude Include="..\..\TimerWindows.hpp" />
     <ClInclude Include="..\..\Toggle.hpp" />
@@ -320,6 +322,7 @@
     <ClCompile Include="..\src\ExecutableFolder.cpp" />
     <ClCompile Include="..\src\ExecutableFolderUnicode.cpp" />
     <ClCompile Include="..\src\ExtendedRangeStlAlgorithms.cpp" />
+    <ClCompile Include="..\src\FileChange.cpp" />
     <ClCompile Include="..\src\FileCommon.cpp" />
     <ClCompile Include="..\src\FileName.cpp" />
     <ClCompile Include="..\src\FindActErase.cpp" />
@@ -373,6 +376,7 @@
     <ClCompile Include="..\src\Time.cpp" />
     <ClCompile Include="..\src\TimeCasts.cpp" />
     <ClCompile Include="..\src\TimedFunction.cpp" />
+    <ClCompile Include="..\src\TimeLimitedThread.cpp" />
     <ClCompile Include="..\src\Timer.cpp" />
     <ClCompile Include="..\src\TimerWindows.cpp" />
     <ClCompile Include="..\src\Toggle.cpp" />

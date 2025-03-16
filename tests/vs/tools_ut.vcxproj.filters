@@ -397,6 +397,12 @@
     <ClInclude Include="..\..\RemoveChars.hpp">
       <Filter>Header Files\M-R</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\FileChange.hpp">
+      <Filter>Header Files\E-L</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TimeLimitedThread.hpp">
+      <Filter>Header Files\S-V</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\src\main.cpp">
@@ -701,6 +707,12 @@
     </ClCompile>
     <ClCompile Include="..\src\RemoveChars.cpp">
       <Filter>Source Files\M-R</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FileChange.cpp">
+      <Filter>Source Files\E-L</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\TimeLimitedThread.cpp">
+      <Filter>Source Files\S-V</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
