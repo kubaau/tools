@@ -191,6 +191,7 @@
     <ClInclude Include="..\..\CutString.hpp" />
     <ClInclude Include="..\..\DefaultRandomEngine.hpp" />
     <ClInclude Include="..\..\Demangle.hpp" />
+    <ClInclude Include="..\..\DivideEvenly.hpp" />
     <ClInclude Include="..\..\DumpMemory.hpp" />
     <ClInclude Include="..\..\Either.hpp" />
     <ClInclude Include="..\..\Endianness.hpp" />
@@ -310,6 +311,7 @@
     <ClCompile Include="..\src\CustomRangeAlgorithms.cpp" />
     <ClCompile Include="..\src\CutString.cpp" />
     <ClCompile Include="..\src\Demangle.cpp" />
+    <ClCompile Include="..\src\DivideEvenly.cpp" />
     <ClCompile Include="..\src\DumpMemory.cpp" />
     <ClCompile Include="..\src\Either.cpp" />
     <ClCompile Include="..\src\Endianness.cpp" />

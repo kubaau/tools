@@ -403,6 +403,9 @@
     <ClInclude Include="..\..\TimeLimitedThread.hpp">
       <Filter>Header Files\S-V</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\DivideEvenly.hpp">
+      <Filter>Header Files\A-D</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\src\main.cpp">
@@ -713,6 +716,9 @@
     </ClCompile>
     <ClCompile Include="..\src\TimeLimitedThread.cpp">
       <Filter>Source Files\S-V</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DivideEvenly.cpp">
+      <Filter>Source Files\A-D</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

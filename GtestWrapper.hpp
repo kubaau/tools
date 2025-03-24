@@ -18,6 +18,7 @@ using Vf = vector<float>;
 using Vd = vector<double>;
 using Vs = vector<string>;
 using V8 = vector<u8>;
+using Vsz = vector<size_t>;
 using S = set<int>;
 using US = unordered_set<int>;
 using M = map<int, int>;
