@@ -406,6 +406,12 @@
     <ClInclude Include="..\..\DivideEvenly.hpp">
       <Filter>Header Files\A-D</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\History.hpp">
+      <Filter>Header Files\E-L</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\HistorySimple.hpp">
+      <Filter>Header Files\E-L</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\src\main.cpp">
@@ -719,6 +725,12 @@
     </ClCompile>
     <ClCompile Include="..\src\DivideEvenly.cpp">
       <Filter>Source Files\A-D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\History.cpp">
+      <Filter>Source Files\E-L</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\HistorySimple.cpp">
+      <Filter>Source Files\E-L</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

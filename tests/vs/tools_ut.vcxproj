@@ -215,6 +215,8 @@
     <ClInclude Include="..\..\Guarded.hpp" />
     <ClInclude Include="..\..\HashMembers.hpp" />
     <ClInclude Include="..\..\HasMember.hpp" />
+    <ClInclude Include="..\..\History.hpp" />
+    <ClInclude Include="..\..\HistorySimple.hpp" />
     <ClInclude Include="..\..\InRange.hpp" />
     <ClInclude Include="..\..\IntToWord.hpp" />
     <ClInclude Include="..\..\IoTypedefs.hpp" />
@@ -331,6 +333,8 @@
     <ClCompile Include="..\src\FunctionComplement.cpp" />
     <ClCompile Include="..\src\FunctionComposition.cpp" />
     <ClCompile Include="..\src\Guarded.cpp" />
+    <ClCompile Include="..\src\History.cpp" />
+    <ClCompile Include="..\src\HistorySimple.cpp" />
     <ClCompile Include="..\src\InRange.cpp" />
     <ClCompile Include="..\src\IntToWord.cpp" />
     <ClCompile Include="..\src\IsStlContainer.cpp" />

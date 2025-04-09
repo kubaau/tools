@@ -8,6 +8,11 @@
 #include "Print.hpp"
 #include "Typedefs.hpp"
 
+#define EXPECT_CONTAINS(c, v) EXPECT_TRUE(c.contains(v))
+#define EXPECT_NOT_CONTAINS(c, v) EXPECT_FALSE(c.contains(v))
+#define EXPECT_EMPTY(c) EXPECT_TRUE(c.empty())
+#define EXPECT_SIZE(c, sz) EXPECT_EQ(c.size(), sz)
+
 using namespace std;
 using namespace testing;
 
